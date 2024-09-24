@@ -6,7 +6,6 @@ using namespace std;
 #define mod3 998244353
 #define mod7 1000000007
 const int N = 1e6 + 10;
-const double eps =0.1;
 
 signed main(){
     ios::sync_with_stdio(false);
@@ -19,13 +18,13 @@ signed main(){
 
     float s1 = a1 + a2;
     float s2 = b1 + b2;
-    if(abs(s1)< eps && abs(s2)< eps){
+    if(abs(s1)< 0.1 && abs(s2)< 0.1){
         printf("(%.1f%+.1fi) + (%.1f%+.1fi) = 0.0\n",a1, b1, a2, b2);
     }
-    else if(abs(s1)< eps){
+    else if(abs(s1)< 0.1){
         printf("(%.1f%+.1fi) + (%.1f%+.1fi) = %.1fi\n", a1, b1, a2, b2, s2);
     }
-    else if(abs(s2)< eps){
+    else if(abs(s2)< 0.1){
         printf("(%.1f%+.1fi) + (%.1f%+.1fi) = %.1f\n", a1, b1, a2, b2, s1);
     }
     else{
@@ -34,13 +33,13 @@ signed main(){
 
     float s3 = a1 - a2;
     float s4 = b1 - b2;
-    if(abs(s3)< eps&&abs(s4)< eps){
+    if(abs(s3)< 0.1&&abs(s4)< 0.1){
         printf("(%.1f%+.1fi) - (%.1f%+.1fi) = 0.0\n",a1, b1, a2, b2);
     }
-    else if(abs(s3)< eps){
+    else if(abs(s3)< 0.1){
         printf("(%.1f%+.1fi) - (%.1f%+.1fi) = %.1fi\n", a1, b1, a2, b2, s4);
     }
-    else if(abs(s4)< eps){
+    else if(abs(s4)< 0.1){
         printf("(%.1f%+.1fi) - (%.1f%+.1fi) = %.1f\n", a1, b1, a2, b2, s3);
     }
     else{
@@ -49,13 +48,13 @@ signed main(){
 
     float s5 = a1*a2 - b1*b2;
     float s6 = a2*b1 + a1*b2;
-    if(abs(s5)< eps&&abs(s6)< eps){
+    if(abs(s5)< 0.1&&abs(s6)< 0.1){
         printf("(%.1f%+.1fi) * (%.1f%+.1fi) = 0.0\n",a1, b1, a2, b2);
     }
-    else if(abs(s5)< eps){
+    else if(abs(s5)< 0.1){
         printf("(%.1f%+.1fi) * (%.1f%+.1fi) = %.1fi\n", a1, b1, a2, b2, s6);
     }
-    else if(abs(s6)< eps){
+    else if(abs(s6)< 0.1){
         printf("(%.1f%+.1fi) * (%.1f%+.1fi) = %.1f\n", a1, b1, a2, b2, s5);
     }
     else{
@@ -64,13 +63,13 @@ signed main(){
 
     float s7 = (a1*a2 + b1*b2)/(a2*a2+b2*b2);
     float s8 = -(a1*b2-b1*a2)/(a2*a2+b2*b2);
-    if(abs(s7)< eps&&abs(s8)< eps){
+    if(abs(s7)< 0.1&&abs(s8)< 0.1){
         printf("(%.1f%+.1fi) / (%.1f%+.1fi) = 0.0\n",a1, b1, a2, b2);
     }
-    else if(abs(s7)< eps){
+    else if(abs(s7)< 0.1){
         printf("(%.1f%+.1fi) / (%.1f%+.1fi) = %.1fi\n", a1, b1, a2, b2, s8);
     }
-    else if(abs(s8)< eps){
+    else if(abs(s8)< 0.1){
         printf("(%.1f%+.1fi) / (%.1f%+.1fi) = %.1f\n", a1, b1, a2, b2, s7);
     }
     else{
