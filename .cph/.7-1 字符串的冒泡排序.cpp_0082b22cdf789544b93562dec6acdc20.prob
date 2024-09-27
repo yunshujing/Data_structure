@@ -1,0 +1,1 @@
+{"name":"Local: 7-1 字符串的冒泡排序","url":"d:\\Data_structure\\7-1 字符串的冒泡排序.cpp","tests":[{"id":1727177070816,"input":"6 2\nbest\ncat\neast\na\nfree\nday","output":"best\na\ncat\nday\neast\nfree"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Data_structure\\7-1 字符串的冒泡排序.cpp","group":"local","local":true}
