@@ -1,0 +1,1 @@
+{"name":"Local: 7-1 括号匹配","url":"d:\\Data_structure\\7-1 括号匹配.cpp","tests":[{"id":1729828855844,"input":"sin(10+20)","output":"yes"},{"id":1729828869749,"input":"{[}]","output":"no"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Data_structure\\7-1 括号匹配.cpp","group":"local","local":true}

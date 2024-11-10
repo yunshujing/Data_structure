@@ -1,0 +1,1 @@
+{"name":"Local: 7-2 栈操作的合法性","url":"d:\\Data_structure\\7-2 栈操作的合法性.cpp","tests":[{"id":1729828974372,"input":"4 10\nSSSXXSXXSX\nSSSXXSXXS\nSSSSSSSSSSXSSXXXXXXXXXXX\nSSSXXSXXX","output":"YES\nNO\nNO\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Data_structure\\7-2 栈操作的合法性.cpp","group":"local","local":true}

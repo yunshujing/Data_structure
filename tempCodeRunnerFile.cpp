@@ -1,19 +1,37 @@
-#include<bits/stdc++.h>
-using namespace std;
-#define int long long
-#define double long double
-#define endl "\n"
-#define mod3 998244353
-#define mod7 1000000007
-const int N = 1e6 + 10;
-const double eps =1e-4;
+bool Push( Stack S, ElementType X ){
+    if (S->Top == S->MaxSize) {
+        printf("Stack Full\n");
+        return false;
+    }
+    S->Data[S->Top] = X;
+    S->Top++;
+    return true;
+}
+ElementType Pop( Stack S ){
+    if (S->Top == 0) {
+        printf("Stack Empty\n");
+        return ERROR;
+    }
+    S->Top--;
+    return S->Data[S->Top];
+}
 
-signed main(){
-    ios::sync_with_stdio(false);
-    cin.tie(0);cout.tie(0);
-    cout << fixed << setprecision(6);
-    
-    
-    
-    return 0;
+bool Push( Stack S, ElementType X ){
+	if(S->Top==S->MaxSize){
+		printf("Stack Full\n");
+		return false;
+	} 
+    //
+	S->Data[S->Top]= X;
+    S->Top++;
+	return true;
+}
+
+ElementType Pop( Stack S ){
+	if(S->Top==0){
+		printf("Stack Empty\n");
+		return ERROR;
+	}
+    S->Top--;
+	 return S->Data[S->Top];
 }
