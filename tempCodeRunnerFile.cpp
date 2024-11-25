@@ -1,37 +1,9 @@
-bool Push( Stack S, ElementType X ){
-    if (S->Top == S->MaxSize) {
-        printf("Stack Full\n");
-        return false;
+int NodeCount(BiTree T){
+    if (T == NULL){
+        return 0;
     }
-    S->Data[S->Top] = X;
-    S->Top++;
-    return true;
-}
-ElementType Pop( Stack S ){
-    if (S->Top == 0) {
-        printf("Stack Empty\n");
-        return ERROR;
+    if (T->lchild == NULL && T->rchild != NULL || T->rchild == NULL && T->lchild != NULL){
+        return 1 + NodeCount(T->lchild) + NodeCount(T->rchild);
     }
-    S->Top--;
-    return S->Data[S->Top];
-}
-
-bool Push( Stack S, ElementType X ){
-	if(S->Top==S->MaxSize){
-		printf("Stack Full\n");
-		return false;
-	} 
-    //
-	S->Data[S->Top]= X;
-    S->Top++;
-	return true;
-}
-
-ElementType Pop( Stack S ){
-	if(S->Top==0){
-		printf("Stack Empty\n");
-		return ERROR;
-	}
-    S->Top--;
-	 return S->Data[S->Top];
+    return NodeCount(T->lchild) + NodeCount(T->rchild);
 }
