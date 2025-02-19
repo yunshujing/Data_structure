@@ -1,0 +1,1 @@
+{"name":"Local: 导弹拦截","url":"d:\\Data_structure\\导弹拦截.cpp","tests":[{"id":1734956429762,"input":"389  207  155  300  299  170  158  65","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Data_structure\\导弹拦截.cpp","group":"local","local":true}

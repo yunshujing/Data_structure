@@ -1,0 +1,1 @@
+{"name":"Local: 便利店","url":"d:\\Data_structure\\便利店.cpp","tests":[{"id":1734954469999,"input":"20 30 70 90\n3","output":"150"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Data_structure\\便利店.cpp","group":"local","local":true}

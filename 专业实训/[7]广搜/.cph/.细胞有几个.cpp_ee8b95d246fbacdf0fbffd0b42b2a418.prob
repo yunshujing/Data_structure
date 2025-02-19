@@ -1,0 +1,1 @@
+{"name":"Local: 细胞有几个","url":"c:\\Users\\QIAN\\Desktop\\专业实训\\[7]广搜\\细胞有几个.cpp","tests":[{"id":1736474803936,"input":"4 10\n0234500067\n1034560500\n2045600671\n0000000089","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\QIAN\\Desktop\\专业实训\\[7]广搜\\细胞有几个.cpp","group":"local","local":true}

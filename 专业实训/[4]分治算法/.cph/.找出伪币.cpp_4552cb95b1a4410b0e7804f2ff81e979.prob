@@ -1,0 +1,1 @@
+{"name":"Local: 找出伪币","url":"c:\\Users\\QIAN\\Desktop\\专业实训\\分治算法\\找出伪币.cpp","tests":[{"id":1735799132070,"input":"4\n43 43 43 1 ","output":"4 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\QIAN\\Desktop\\专业实训\\分治算法\\找出伪币.cpp","group":"local","local":true}

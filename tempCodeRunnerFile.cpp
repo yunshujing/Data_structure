@@ -9,30 +9,23 @@ const int N = 1e6 + 10;
 const double eps =1e-4;
 
 signed main(){
-    // ios::sync_with_stdio(false);
-    // cin.tie(0);cout.tie(0);
-    // cout << fixed << setprecision(6);
+    ios::sync_with_stdio(false);
+    cin.tie(0);cout.tie(0);
+    cout << fixed << setprecision(6);
 
     int n;
     cin >> n;
-    string s[n];
-    int x[] = {7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2};
-    for (int i = 0; i < n; i++){
-        cin >> s[i];
+    int a[128];
+    for (int i = 1; i <= n; i++){
+        cin >> a[i];
     }
-    bool f = 1;
-    for (int i = 0; i < n; i++){
-        int t = 0;
-        for (int j = 0; j < 17; j++){
-            t += (s[i][j]-'0')*x[j];
+    int c = 3;
+    while(c <= n+1){
+        sort(a+1,a+c);
+        for(int j = 1; j<n; j++){
+            cout << a[j] << " ";
         }
-        t %= 11;
-        if (t != s[i][17]-'0'){
-            f = 0;
-            cout<<s[i]<<endl;
-        }
+        cout << a[n] <<'\n';
+        c+=1;
     }
-    if(f) cout << "All passed";
-
-    return 0;
 }

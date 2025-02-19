@@ -1,0 +1,1 @@
+{"name":"Local: 有重复元素的排列问题","url":"c:\\Users\\QIAN\\Desktop\\专业实训\\[5]深搜\\有重复元素的排列问题.cpp","tests":[{"id":1736234589384,"input":"4\naacc","output":"aacc\nacac\nacca\ncaac\ncaca\nccaa\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\QIAN\\Desktop\\专业实训\\[5]深搜\\有重复元素的排列问题.cpp","group":"local","local":true}

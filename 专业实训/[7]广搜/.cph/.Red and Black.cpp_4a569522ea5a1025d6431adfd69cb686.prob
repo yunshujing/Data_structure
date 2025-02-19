@@ -1,0 +1,1 @@
+{"name":"Local: Red and Black","url":"c:\\Users\\QIAN\\Desktop\\专业实训\\[7]广搜\\Red and Black.cpp","tests":[{"id":1736471598297,"input":"5 4\n....#\n.....\n#@...\n.#..#","output":"15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\QIAN\\Desktop\\专业实训\\[7]广搜\\Red and Black.cpp","group":"local","local":true}
